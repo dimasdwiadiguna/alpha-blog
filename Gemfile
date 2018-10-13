@@ -47,7 +47,7 @@ group :development do
 end
 
 group :production do
-  gem 'pg'
+  gem 'pg', '~> 0.15'
   #Only for rails 4 and below
   gem 'rails_12factor'
 end
