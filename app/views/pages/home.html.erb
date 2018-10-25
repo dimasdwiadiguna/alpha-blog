@@ -1,12 +1,7 @@
-<head>
-  <link rel="stylesheet" href="https://bootswatch.com/4/flatly/bootstrap.min.css">
-</head>
-
-<div class="header">
-  <%= image_tag 'logo.png', :size => '100x100'%>
-  <h1>Alpha-blog</h1>
-</div>
-<div class="container">
-  <p>Create your blog now</p> 
-  <%= link_to 'Index of Articles', articles_path %>
+<div class="center jumbotron">
+  <h1 class="jumbo-text">Create engaging story</h1>
+  <p>Alpha Blog enables you to unleash your creativity through article</p>
+  <p>
+    <%= link_to "Read More", articles_path, class: "btn btn-primary btn-lg", role: "button" %>
+  </p>
 </div>

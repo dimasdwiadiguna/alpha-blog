@@ -1,2 +1,46 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+
+.container {
+  min-height: 100%;
+  position: relative;
+}
+
+.center {
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: asset-url('bg-jumbotron.jpg');
+  background-size: cover;
+  height: 500px;
+}
+
+.jumbotron h1 {
+  color: white;
+}
+
+.jumbotron p {
+  color: white;
+}
+
+.jumbotron .btn {
+  box-shadow: 0 10px 60px -10px #337ab7;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-top: 45px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  background-color: black;
+  color: white;
+}
